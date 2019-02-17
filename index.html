@@ -2,9 +2,20 @@
 <html>
 <head>
 	<title>WeGo</title>
-	<link rel="stylesheet"  href="css/master.css">
 	<link rel="stylesheet" href="css/normalize.css">
   	<link rel="stylesheet" href="css/skeleton.css">
+  	<style type="text/css" media="screen">
+
+  		#Video {
+		  position: fixed;
+		  right: 0;
+		  bottom: 0;
+		  min-width: 100%; 
+		  min-height: 100%;
+		}
+
+	</style>
+
 	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
            <script>
@@ -20,12 +31,12 @@
             </script>
 </head>
 	<body>
-		<div class="header">
-			<div class="row">
-				<div class="one column">
-					<video  src="video/WeGo.mp4" type="video/mp4" muted autoplay loop></video>
+		<section class="container">
+				<div class="twelve column ">
+					<div style="text-align:center">
+						<video  src="video/WeGo.mp4" type="video/mp4" muted autoplay loop></video>
+					</div>
 				</div>
-			</div>
-		</div>
+		</section>
 	</body>
 </html>
